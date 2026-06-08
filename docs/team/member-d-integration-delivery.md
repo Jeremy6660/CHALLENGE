@@ -98,3 +98,4 @@ D 的核心任务是“把项目收束起来”：统一目录、统一接口、
 - 集成问题要尽早暴露，不要等到 8 月底才发现字段不统一。
 - Demo 案例要精挑细选，建议使用“张奶奶头晕 + 用药风险 + 家属报告”作为主线。
 - 答辩时不要陷入技术细节，要讲清楚养老场景、系统价值和安全边界。
+> 历史说明：本文按 `main` 早期规划节奏编写，部分“代码骨架/界面骨架待搭建”表述早于 `Beta` 原型。若判断当前原型状态，请优先参考 [../beta-prototype-status.md](../beta-prototype-status.md) 和 [../executable-full-process-plan.md](../executable-full-process-plan.md)。

@@ -421,3 +421,4 @@ Gradio 联调 (D, 7/22-8/14)
 ---
 
 *本路线图于 2026-05-27 根据团队实际情况（4 人、vibe coding、极简技术栈）重写。*
+> 历史说明：本文形成于 `Beta` 原型出现之前，仍保留“代码骨架待搭建”等旧假设。若涉及当前真实状态，请以 [system-design.md](./system-design.md)、[beta-prototype-status.md](./beta-prototype-status.md) 和 [executable-full-process-plan.md](./executable-full-process-plan.md) 为准。
