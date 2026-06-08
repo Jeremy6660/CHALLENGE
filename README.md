@@ -36,6 +36,8 @@ CareMind 聚焦于**养老院与居家照护场景**，通过 AI Agent 的协同
 ## 快速导航
 
 - **系统设计详解**：[docs/system-design.md](docs/system-design.md)
+- **参赛版完整修改建议**：[docs/competition-revision-recommendations.md](docs/competition-revision-recommendations.md)
+- **参赛版全流程执行方案**：[docs/executable-full-process-plan.md](docs/executable-full-process-plan.md)
 - **理论与政策背景**：[docs/background.md](docs/background.md)
 - **行业研究与痛点整理**：[docs/industry-research.md](docs/industry-research.md)
 - **用药安全知识库来源**：[docs/medication-safety-knowledge-sources.md](docs/medication-safety-knowledge-sources.md)
@@ -55,6 +57,8 @@ CareMind/
 ├── CLAUDE.md                    ← 项目规则手册
 ├── docs/
 │   ├── system-design.md         ← 系统架构与三大Agent详细设计
+│   ├── competition-revision-recommendations.md ← 参赛版改写建议与差距分析
+│   ├── executable-full-process-plan.md ← 从当前进度到 9 月提交的全流程执行手册
 │   ├── background.md            ← 理论基础、政策背景、行业痛点
 │   ├── industry-research.md     ← 最新行业数据、现实约束与痛点整理
 │   ├── implementation-roadmap.md ← 技术栈与执行计划

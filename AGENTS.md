@@ -51,6 +51,8 @@ CareMind/
 ├── CLAUDE.md                      ← Claude / 通用规则镜像
 ├── docs/
 │   ├── system-design.md           ← 核心：系统架构、三大Agent、个性化机制、技术栈、执行路线
+│   ├── competition-revision-recommendations.md ← 参赛版改写建议、赛题对齐差距与重写方向
+│   ├── executable-full-process-plan.md ← 参赛版从当前进度到提交的全流程执行方案
 │   ├── background.md              ← 参考：理论支撑、政策背景、行业痛点
 │   ├── industry-research.md       ← 参考：最新行业数据、现实约束与痛点整理
 │   ├── implementation-roadmap.md  ← 详细：按月的里程碑计划
@@ -66,6 +68,8 @@ CareMind/
 - **README.md**：项目概览与导航，保持最新
 - **AGENTS.md**：项目规则，新增规则/约束立即同步，不要拖延
 - **docs/system-design.md**：系统设计的单一真实来源（SSOT），任何架构改动必须体现在这里
+- **docs/competition-revision-recommendations.md**：参赛版改写建议与赛题对齐说明，项目方向转向时优先更新
+- **docs/executable-full-process-plan.md**：参赛版执行总手册，时间线、产物和阶段验收变化时同步更新
 - **docs/background.md**：理论与政策背景，通常不变，除非发现过期或误导信息
 - **docs/industry-research.md**：行业现状、人口数据、支付与供需痛点的正式整理入口，新增行业研究材料优先沉淀到这里
 - **docs/medication-safety-knowledge-sources.md**：Agent 2 用药安全知识库来源、字段模板与审核流程，新增医学/药学来源时优先更新这里
@@ -183,6 +187,8 @@ code/
 | 需求 | 对应文档 |
 |------|---------|
 | 系统架构全景、三大Agent职责 | [docs/system-design.md](docs/system-design.md) §二、§三 |
+| 参赛版如何改写、与赛题哪里不贴合 | [docs/competition-revision-recommendations.md](docs/competition-revision-recommendations.md) |
+| 从当前阶段到 9 月提交怎么执行 | [docs/executable-full-process-plan.md](docs/executable-full-process-plan.md) |
 | 个性化生成机制怎么实现 | [docs/system-design.md](docs/system-design.md) §五 |
 | 技术栈与推荐工具 | [docs/system-design.md](docs/system-design.md) §六 |
 | 最新老龄化数据、行业痛点与现实约束 | [docs/industry-research.md](docs/industry-research.md) |
