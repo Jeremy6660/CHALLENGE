@@ -222,3 +222,16 @@ docs: 更新系统设计文档的Beta映射部分
 ---
 
 *本手册最后更新于 2026-06-08 · CareMind 项目组*
+
+## graphify
+
+本项目已经生成知识图谱，产物位于 `graphify-out/`，包含高连接节点、社区结构与跨文档关系。
+
+当用户输入 `/graphify` 时，先调用 `skill` 工具并传入 `skill: "graphify"`，再做其他动作。
+
+Rules:
+- 遇到代码库问题时，如果 `graphify-out/graph.json` 存在，先运行 `graphify query "<问题>"`。查关系用 `graphify path "<A>" "<B>"`，查单个概念用 `graphify explain "<概念>"`。这些命令会返回聚焦后的子图，通常比直接读 `GRAPH_REPORT.md` 或全仓库检索更高效。
+- `graphify-out/` 在 hook 或增量更新后处于 dirty 状态是正常现象，不要因此跳过 graphify。只有当任务本身就是排查图谱过期、错误，或用户明确说不要用 graphify 时，才跳过。
+- 如果存在 `graphify-out/wiki/index.md`，优先用它做广义导航，而不是直接翻源码。
+- 只有在做宏观架构审查，或 `query` / `path` / `explain` 还不够时，才去读 `graphify-out/GRAPH_REPORT.md`。
+- 修改代码后运行 `graphify update .` 保持图谱最新；这是 AST-only 更新，不需要额外 API 成本。
